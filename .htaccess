@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 #Change this line based off the home directory
-RewriteBase /codeigniter/login-app/
+RewriteBase /ci-login-tutorial/
 
 RewriteCond %{REQUEST_URI} ^system.*
 RewriteRule ^(.*)$ /index.php?/$1 [L]

@@ -21,7 +21,7 @@
 <?php else: ?>
 
 <h2>Login</h2>
-
+<p><em>Ignore this for now, Leah.</em></p>
 <?php $attributes = array('id'=>'login_form', 'class'=>'form_horizontal'); ?>
 
 <?php if($this->session->flashdata('errors')): ?>
